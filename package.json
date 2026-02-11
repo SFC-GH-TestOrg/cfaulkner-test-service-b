@@ -1,0 +1,8 @@
+{
+  "name": "@sfc-gh-testorg/cfaulkner-test-service-b",
+  "version": "1.0.0",
+  "description": "Service B - depends on shared-lib",
+  "dependencies": {
+    "@sfc-gh-testorg/cfaulkner-test-shared-lib": "github:SFC-GH-TestOrg/cfaulkner-test-shared-lib"
+  }
+}
