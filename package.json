@@ -1,8 +1,23 @@
 {
   "name": "@sfc-gh-testorg/cfaulkner-test-service-b",
-  "version": "1.0.0",
-  "description": "Service B - depends on shared-lib",
+  "version": "1.1.0",
+  "description": "API Gateway Service - handles routing, rate limiting, and request transformation for SFC-GH-TestOrg platform",
+  "main": "src/index.js",
+  "type": "module",
+  "keywords": [
+    "sfc-gh-testorg",
+    "api-gateway",
+    "routing",
+    "rate-limiting",
+    "service"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SFC-GH-TestOrg/cfaulkner-test-service-b"
+  },
   "dependencies": {
     "@sfc-gh-testorg/cfaulkner-test-shared-lib": "github:SFC-GH-TestOrg/cfaulkner-test-shared-lib"
-  }
+  },
+  "author": "SFC-GH-TestOrg",
+  "license": "MIT"
 }
